@@ -17,14 +17,14 @@
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
     
     <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">  
     
     <!-- github calendar css -->
-    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css">
-    <!-- github acitivity css -->    
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-    <link rel="stylesheet" href="assets/plugins/github-activity/github-activity-0.1.5.min.css">
-    
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar-responsive.css">
+    <!-- github activity css -->  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">  
+    <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
+
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
     
@@ -33,22 +33,34 @@
 <body>
     <!-- ******HEADER****** --> 
     <header class="header">
-        <div class="container clearfix">                       
-            <img class="profile-image img-fluid float-left" src="assets/images/profile.png" alt="Lemmy Njaria Kiarie" />
-            <div class="profile-content float-left">
-                <h1 class="name">Lemmy Njaria Kiarie</h1>
-                <h2 class="desc">Software Developer</h2>   
-                <ul class="social list-inline">
-                    <li class="list-inline-item"><a href="https://twitter.com/lemmynjaria"><i class="fab fa-twitter"></i></a></li>                   
-                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/lemmy-njaria-5baa1266/"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li class="list-inline-item"><a href="https://github.com/Lemmynjash"><i class="fab fa-github-alt"></i></a></li>    
-                    <li class="list-inline-item"><a href="https://stackoverflow.com/users/4951951/lemmy-njaria"><i class="fab fa-stack-overflow"></i></a></li>   
-                </ul> 
-            </div><!--//profile-->
-            <a class="btn btn-cta-primary float-right" href="https://twitter.com/lemmynjaria" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>              
+        <div class="container">     
+	        <div class="row align-items-center">
+			    <div class="col">         
+		            <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/profile.png" alt="Lemmy Njaria Kiarie" />
+		            <div class="profile-content">
+		                <h1 class="name">Lemmy Njaria Kiarie</h1>
+		                <h2 class="desc">Software Developer</h2>   
+		                <ul class="social list-inline">
+		                    <li class="list-inline-item"><a href="https://twitter.com/lemmynjaria"><i class="fab fa-twitter"></i></a></li>                   
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/lemmy-njaria-5baa1266/"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li class="list-inline-item"><a href="https://github.com/Lemmynjash"><i class="fab fa-github-alt"></i></a></li>    
+                            <li class="list-inline-item"><a href="https://stackoverflow.com/users/4951951/lemmy-njaria"><i class="fab fa-stack-overflow"></i></a></li>             
+		                </ul> 
+		            </div><!--//profile-->
+			    </div><!--//col-->
+	            <div class="col-12 col-md-auto">
+		            <div class="dark-mode-switch d-flex">
+						<div class="form-check form-switch mx-auto mx-md-0">
+							<input type="checkbox" class="form-check-input me-2" id="darkSwitch" />
+							<label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+						</div>
+			        </div><!--//dark-mode-switch-->
+	                <a class="btn btn-cta-primary" href="https://twitter.com/lemmynjaria/" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>        
+	            </div><!--//col-->
+	        </div><!--//row-->         
         </div><!--//container-->
     </header><!--//header-->
-    
+        
     <div class="container sections-wrapper">
         <div class="row">
             <div class="primary col-lg-8 col-12">
